@@ -7,17 +7,24 @@
     "text": "About this site"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "FCP Blog",
-    "section": "",
-    "text": "A Circle\n\n\n\n\n\n\nAnand\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "posts/circle.html",
     "href": "posts/circle.html",
     "title": "A Circle",
     "section": "",
     "text": "This is a circle created using a c program."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "FCP Blog",
+    "section": "",
+    "text": "A Circle\n\n\n\n\n\n\nAnand\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello from Anand\n\n\n\n\n\n\nAnand\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/anand.html",
+    "href": "posts/anand.html",
+    "title": "Hello from Anand",
+    "section": "",
+    "text": "Hello! My name is Anand. I’m helping Prof. Jishnu teach the Fundamentals of Computer Programming Course.\nwebsite: https://anandology.com/"
   }
 ]
