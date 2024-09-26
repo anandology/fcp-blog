@@ -6,7 +6,7 @@ date: 2024-09-26
 
 Hello !
 
-!()[images/plot.svg]
+![](images/plot.svg)
 
 
 ```
