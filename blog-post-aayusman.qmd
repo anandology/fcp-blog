@@ -1,0 +1,8 @@
+# Quarto Demo Practice Post by Aayusman on fcp-blog
+
+Hey, I'm Aayusman, a B1 student at ISI Bangalore. Besides my studies, I also enjoy a lot of other stuff like playing Violin, writing poetry and taking pics here and there.
+
+Here's one of my fav pics found online:
+
+
+![alt](https://upload.wikimedia.org/wikipedia/commons/6/6b/Winter_Is_Here_%2821979089%29.jpeg)
