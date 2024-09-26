@@ -7,32 +7,18 @@
     "text": "About this site"
   },
   {
-    "objectID": "posts/circle.html",
-    "href": "posts/circle.html",
-    "title": "A Circle",
+    "objectID": "posts/gauransh.html",
+    "href": "posts/gauransh.html",
+    "title": "Hello from Gauransh",
     "section": "",
-    "text": "This is a circle created using a c program."
+    "text": "Hello! My name is Gauransh. I am a B.Math (first year) student at ISI Bangalore. I like playing chess, table tennis, writing poems and listening to music.\nWebsite: https://anandology.com/"
   },
   {
-    "objectID": "posts/sathya.html",
-    "href": "posts/sathya.html",
-    "title": "Hello from sathya",
+    "objectID": "posts/dot.html",
+    "href": "posts/dot.html",
+    "title": "A Dot",
     "section": "",
-    "text": "Hello! i am sathya tej.\nwebsite: https://anandology.com/"
-  },
-  {
-    "objectID": "posts/sai_prabhav.html",
-    "href": "posts/sai_prabhav.html",
-    "title": "Hello from V Sai Prabhav",
-    "section": "",
-    "text": "Hello! My name is Sai Prabhav. I am a student In ISI and love programming.\ngithub reddit"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "FCP Blog",
-    "section": "",
-    "text": "A Circle\n\n\n\n\n\n\nAnand\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nA Dot\n\n\n\n\n\n\nV Sai Prabhav\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello from Anand\n\n\n\n\n\n\nAnand\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello from Anand2\n\n\n\n\n\n\nAnand2\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello from V Sai Prabhav\n\n\n\n\n\n\nV Sai Prabhav\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello from sathya\n\n\n\n\n\n\nsathya\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "This is a dot created using a c program.\n#include &lt;sketch.h&gt;\n#include &lt;stdlib.h&gt;\n#include &lt;time.h&gt;\n#include &lt;math.h&gt;\n#include &lt;stdio.h&gt;\n#include &lt;unistd.h&gt;\n\nint main(int argc, char const *argv[])\n{   \n set_fill(\"black\");\n draw_circle(0,0,10);\n save_sketch(\"dot.svg\");\n    return 0;\n}"
   },
   {
     "objectID": "posts/anand2.html",
@@ -42,11 +28,32 @@
     "text": "Hello! My name is Anand. I’m helping Prof. Jishnu teach the Fundamentals of Computer Programming Course.\nwebsite: https://anandology.com/"
   },
   {
-    "objectID": "posts/dot.html",
-    "href": "posts/dot.html",
-    "title": "A Dot",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "FCP Blog",
     "section": "",
-    "text": "This is a dot created using a c program.\n#include &lt;sketch.h&gt;\n#include &lt;stdlib.h&gt;\n#include &lt;time.h&gt;\n#include &lt;math.h&gt;\n#include &lt;stdio.h&gt;\n#include &lt;unistd.h&gt;\n\nint main(int argc, char const *argv[])\n{   \n set_fill(\"black\");\n draw_circle(0,0,10);\n save_sketch(\"dot.svg\");\n    return 0;\n}"
+    "text": "A Circle\n\n\n\n\n\n\nAnand\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nA Dot\n\n\n\n\n\n\nV Sai Prabhav\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello from Anand\n\n\n\n\n\n\nAnand\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello from Anand2\n\n\n\n\n\n\nAnand2\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello from Gauransh\n\n\n\n\n\n\nGauransh\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello from V Sai Prabhav\n\n\n\n\n\n\nV Sai Prabhav\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello from sathya\n\n\n\n\n\n\nsathya\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/sai_prabhav.html",
+    "href": "posts/sai_prabhav.html",
+    "title": "Hello from V Sai Prabhav",
+    "section": "",
+    "text": "Hello! My name is Sai Prabhav. I am a student In ISI and love programming.\ngithub reddit"
+  },
+  {
+    "objectID": "posts/sathya.html",
+    "href": "posts/sathya.html",
+    "title": "Hello from sathya",
+    "section": "",
+    "text": "Hello! i am sathya tej.\nwebsite: https://anandology.com/"
+  },
+  {
+    "objectID": "posts/circle.html",
+    "href": "posts/circle.html",
+    "title": "A Circle",
+    "section": "",
+    "text": "This is a circle created using a c program."
   },
   {
     "objectID": "posts/anand.html",
