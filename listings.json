@@ -3,7 +3,9 @@
     "listing": "/index.html",
     "items": [
       "/posts/circle.html",
-      "/posts/anand.html"
+      "/posts/dot.html",
+      "/posts/anand.html",
+      "/posts/sai_prabhav.html"
     ]
   }
 ]
