@@ -14,25 +14,32 @@
     "text": "Hello! My name is Anshuman. I’m Anshuman student at Indian Statistical Institute Banglore.\nwebsite: https://anandology.com/"
   },
   {
-    "objectID": "posts/circle.html",
-    "href": "posts/circle.html",
-    "title": "A Circle",
+    "objectID": "posts/gauransh.html",
+    "href": "posts/gauransh.html",
+    "title": "Hello from Gauransh",
     "section": "",
-    "text": "This is a circle created using a c program."
+    "text": "Hello! My name is Gauransh. I am a B.Math (first year) student at ISI Bangalore. I like playing chess, table tennis, writing poems and listening to music.\nWebsite: https://anandology.com/"
   },
   {
-    "objectID": "posts/dot.html",
-    "href": "posts/dot.html",
-    "title": "A Dot",
+    "objectID": "posts/sathvik.html",
+    "href": "posts/sathvik.html",
+    "title": "Hello from Sathvik H S",
     "section": "",
-    "text": "This is a dot created using a c program.\n#include &lt;sketch.h&gt;\n#include &lt;stdlib.h&gt;\n#include &lt;time.h&gt;\n#include &lt;math.h&gt;\n#include &lt;stdio.h&gt;\n#include &lt;unistd.h&gt;\n\nint main(int argc, char const *argv[])\n{   \n set_fill(\"black\");\n draw_circle(0,0,10);\n save_sketch(\"dot.svg\");\n    return 0;\n}"
+    "text": "Hello! My name is Sathvik H S. I am from Mangaluru, Karnataka. I am a first year B.Math student in ISI Bengaluru. I like playing badminton and chess. I also love watching movies in my free time."
   },
   {
-    "objectID": "posts/sathya.html",
-    "href": "posts/sathya.html",
-    "title": "Hello from sathya",
+    "objectID": "posts/souparna.html",
+    "href": "posts/souparna.html",
+    "title": "Hello from Souparna",
     "section": "",
-    "text": "Hello! i am sathya tej.\nwebsite: https://anandology.com/"
+    "text": "Hello! My name is Souparna.\nwebsite: https://github.com/SpideyCoding/"
+  },
+  {
+    "objectID": "posts/Mengerssponge.html",
+    "href": "posts/Mengerssponge.html",
+    "title": "Mengers Sponge in 2D",
+    "section": "",
+    "text": "This is mengers sponge in 2D written in c using c sketch\nwebsite: https://anandology.com/\nCODE\n#include &lt;stdio.h&gt;\n#include &lt;sketch.h&gt;\n#include &lt;unistd.h&gt;\n\nvoid sponge(double x, double y, double size, int depth)\n{\n    if (depth==0)\n    {\n        draw_rectangle(x,y,size,size);\n    }\n    else\n    {\n        double s = size/3;\n    set_fill(\"black\");\n    sponge(x-s, y,s, depth-1);\n    sponge(x+s, y,s, depth-1);\n    sponge(x,y-s, s, depth-1);\n    sponge(x,y+s, s, depth-1);\n    sponge(x-s, y-s, s, depth-1);\n    sponge(x-s, y+s, s, depth-1);\n    sponge(x+s, y-s, s, depth-1);\n    sponge(x+s, y+s, s, depth-1);\n    }\n    \n}\n\nint main (void)\n{\n\n    sponge(0,0,600,5);\n    save_sketch(\"spo.svg\");\n\n}"
   },
   {
     "objectID": "posts/sai_prabhav.html",
@@ -46,7 +53,7 @@
     "href": "index.html",
     "title": "FCP Blog",
     "section": "",
-    "text": "A Circle\n\n\n\n\n\n\nAnand\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nA Dot\n\n\n\n\n\n\nV Sai Prabhav\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello from Anand\n\n\n\n\n\n\nAnand\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello from Anand2\n\n\n\n\n\n\nAnand2\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello from Anshuman\n\n\n\n\n\n\nAnshuman\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello from Gauransh\n\n\n\n\n\n\nGauransh\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello from Sathvik H S\n\n\n\n\n\n\n7vik-13\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello from Souparna\n\n\n\n\n\n\nSouparna\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello from V Sai Prabhav\n\n\n\n\n\n\nV Sai Prabhav\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello from sathya\n\n\n\n\n\n\nsathya\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "A Circle\n\n\n\n\n\n\nAnand\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nA Dot\n\n\n\n\n\n\nV Sai Prabhav\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nDragon Curve\n\n\n\n\n\n\nArkaprovo Das\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello from Anand\n\n\n\n\n\n\nAnand\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello from Anand2\n\n\n\n\n\n\nAnand2\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello from Anshuman\n\n\n\n\n\n\nAnshuman\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello from Gauransh\n\n\n\n\n\n\nGauransh\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello from Sathvik H S\n\n\n\n\n\n\n7vik-13\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello from Souparna\n\n\n\n\n\n\nSouparna\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello from V Sai Prabhav\n\n\n\n\n\n\nV Sai Prabhav\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello from sathya\n\n\n\n\n\n\nsathya\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nMengers Sponge in 2D\n\n\n\n\n\n\nArkaprovo Das\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/anand2.html",
@@ -56,25 +63,32 @@
     "text": "Hello! My name is Anand. I’m helping Prof. Jishnu teach the Fundamentals of Computer Programming Course.\nwebsite: https://anandology.com/"
   },
   {
-    "objectID": "posts/souparna.html",
-    "href": "posts/souparna.html",
-    "title": "Hello from Souparna",
+    "objectID": "posts/sathya.html",
+    "href": "posts/sathya.html",
+    "title": "Hello from sathya",
     "section": "",
-    "text": "Hello! My name is Souparna.\nwebsite: https://github.com/SpideyCoding/"
+    "text": "Hello! i am sathya tej.\nwebsite: https://anandology.com/"
   },
   {
-    "objectID": "posts/sathvik.html",
-    "href": "posts/sathvik.html",
-    "title": "Hello from Sathvik H S",
+    "objectID": "posts/dot.html",
+    "href": "posts/dot.html",
+    "title": "A Dot",
     "section": "",
-    "text": "Hello! My name is Sathvik H S. I am from Mangaluru, Karnataka. I am a first year B.Math student in ISI Bengaluru. I like playing badminton and chess. I also love watching movies in my free time."
+    "text": "This is a dot created using a c program.\n#include &lt;sketch.h&gt;\n#include &lt;stdlib.h&gt;\n#include &lt;time.h&gt;\n#include &lt;math.h&gt;\n#include &lt;stdio.h&gt;\n#include &lt;unistd.h&gt;\n\nint main(int argc, char const *argv[])\n{   \n set_fill(\"black\");\n draw_circle(0,0,10);\n save_sketch(\"dot.svg\");\n    return 0;\n}"
   },
   {
-    "objectID": "posts/gauransh.html",
-    "href": "posts/gauransh.html",
-    "title": "Hello from Gauransh",
+    "objectID": "posts/circle.html",
+    "href": "posts/circle.html",
+    "title": "A Circle",
     "section": "",
-    "text": "Hello! My name is Gauransh. I am a B.Math (first year) student at ISI Bangalore. I like playing chess, table tennis, writing poems and listening to music.\nWebsite: https://anandology.com/"
+    "text": "This is a circle created using a c program."
+  },
+  {
+    "objectID": "posts/dragonspiral.html",
+    "href": "posts/dragonspiral.html",
+    "title": "Dragon Curve",
+    "section": "",
+    "text": "This is a dragon curve written in c using c sketch\nwebsite: https://anandology.com/\nCODE\n#include &lt;stdio.h&gt;\n#include &lt;sketch.h&gt;\n\nint power(int a , int b)\n{\n    int i,p=1;\n    if (b==0)\n    return 1;\n    for (i=1;i&lt;=b;i++)\n    p=p*a;\n    return p;\n}\n\nint ds(int n,int d)\n{\n    int i,k,x=50,y=-100;\n    int a[power(2,n)];\n    a[0]=1;\n    a[1]=2;\n    for (i=1;i&lt;=n-1;i++)\n    {\n        for (k=power(2,i);k&lt;=power(2,i+1)-1;k++)\n        {\n            if (k&lt;=3*power(2,i-1)-1)\n            {\n                a[k]=-a[k-power(2,i)];\n            }\n            else\n            {\n                a[k]=a[k-power(2,i)];\n            }\n        }   \n    }\n    for (k=0;k&lt;=power(2,n)-1;k++)\n    {\n        if (a[k]==1)\n        {\n            y=y+d;\n            draw_line(x,y-d,x,y);\n        }\n        else if (a[k]==2)\n        {\n            x=x+d;\n            draw_line(x-d,y,x,y);\n        }\n        else if (a[k]==-1)\n        {\n            y=y-d;\n            draw_line(x,y+d,x,y);\n        }\n        else if (a[k]==-2)\n        {\n            x=x-d;\n            draw_line(x+d,y,x,y);\n        }\n    }\n    save_sketch(\"dragonspiral.svg\");\n}\n\nint main(void)\n{\n    ds(15,2);\n}"
   },
   {
     "objectID": "posts/anand.html",
