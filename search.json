@@ -116,7 +116,7 @@
     "href": "posts/circle.html",
     "title": "A Circle",
     "section": "",
-    "text": "This is a circle created using a c program."
+    "text": "This is a circle created using a c program.\n#include &lt;sketch.h&gt;\n\nint main() {\n    // draw a circle with center at (0, 0) and radius 100\n    draw_circle(0, 0, 100);\n\n    // save the sketch to file circle.svg\n    save_sketch(\"circle.svg\");\n}"
   },
   {
     "objectID": "posts/dragonspiral.html",
